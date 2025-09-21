@@ -48,7 +48,7 @@ public class LoginFrame extends JFrame {
 	 */
 	public LoginFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 660, 580);
+		setBounds(100, 100, 660,660);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
@@ -59,22 +59,22 @@ public class LoginFrame extends JFrame {
 		judul.setForeground(new Color(51, 102, 255));
 		judul.setHorizontalAlignment(SwingConstants.CENTER);
 		judul.setFont(new Font("Times New Roman", Font.BOLD, 24));
-		judul.setBounds(163, 65, 329, 51);
+		judul.setBounds(162, 75, 329, 51);
 		contentPane.add(judul);
 		
 		JLabel subjudul = new JLabel("Males aja nyuci, biar kami cuciin~\r\n");
 		subjudul.setFont(new Font("Segoe UI", Font.ITALIC, 16));
-		subjudul.setBounds(146, 114, 383, 22);
+		subjudul.setBounds(146, 126, 383, 22);
 		contentPane.add(subjudul);
 		
 		JLabel input_username = new JLabel("Username");
 		input_username.setFont(new Font("Segoe UI", Font.PLAIN, 16));
-		input_username.setBounds(146, 161, 86, 22);
+		input_username.setBounds(146, 187, 86, 22);
 		contentPane.add(input_username);
 		
 		JLabel input_password = new JLabel("Password");
 		input_password.setFont(new Font("Segoe UI", Font.PLAIN, 16));
-		input_password.setBounds(146, 237, 86, 22);
+		input_password.setBounds(146, 284, 86, 22);
 		contentPane.add(input_password);
 		
 		JButton btnLogin = new JButton("Login");
@@ -89,13 +89,13 @@ public class LoginFrame extends JFrame {
 			}
 		});
 		btnLogin.setFont(new Font("Segoe UI", Font.PLAIN, 16));
-		btnLogin.setBounds(227, 334, 167, 31);
+		btnLogin.setBounds(230, 420, 167, 31);
 		contentPane.add(btnLogin);
 		
 		txtUsername = new JTextField();
 		txtUsername.setToolTipText("Username");
 		txtUsername.setFont(new Font("Segoe UI", Font.PLAIN, 16));
-		txtUsername.setBounds(146, 187, 329, 40);
+		txtUsername.setBounds(146, 219, 329, 40);
 		contentPane.add(txtUsername);
 		txtUsername.setColumns(10);
 		
@@ -103,7 +103,7 @@ public class LoginFrame extends JFrame {
 		txtPassword.setToolTipText("Password");
 		txtPassword.setFont(new Font("Segoe UI", Font.PLAIN, 16));
 		txtPassword.setColumns(10);
-		txtPassword.setBounds(146, 261, 329, 40);
+		txtPassword.setBounds(146, 316, 329, 40);
 		contentPane.add(txtPassword);
 	}
 }
