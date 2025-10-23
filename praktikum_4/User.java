@@ -24,13 +24,13 @@ public class User {
 		}
 		//Polimorphism : cek tipe buku Magazine
 		if (book instanceof Magazine) {
-			Magazine novel = (Magazine) book;
-			System.out.println("Kategori : " + novel.getKategori());
+			Magazine magazine = (Magazine) book;
+			System.out.println("Kategori : " + magazine.getKategori());
 		}
 		//Polimorphism : cek tipe buku Textbook
 		if (book instanceof Textbook) {
-			Textbook novel = (Textbook) book;
-			System.out.println("Bidang Studi: " + novel.getStudi());
+			Textbook textbook = (Textbook) book;
+			System.out.println("Bidang Studi: " + textbook.getBidangStudi());
 		}
 	}
 	
@@ -57,6 +57,4 @@ public class User {
 	    }
 	}
 	
-	
-
 }

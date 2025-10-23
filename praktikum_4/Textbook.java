@@ -1,14 +1,16 @@
 package praktikum_4;
 
 public class Textbook extends Book {
-	private String studi;
+	private String bidangStudi;
 	
-	public Textbook(String title, String author, String studi) {
+	public Textbook(String title, String author, String bidangStudi) {
 		super(title, author);
-		this.studi = studi;
+		this.bidangStudi = bidangStudi;
 	}
 	
-	public String getStudi() {
-		return studi;
+	public String getBidangStudi() {
+		return bidangStudi;
 	}
 }
+
+
