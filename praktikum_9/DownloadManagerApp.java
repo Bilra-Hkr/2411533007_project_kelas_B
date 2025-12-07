@@ -1,13 +1,11 @@
 package praktikum9;
 
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-
 import java.awt.Font;
 import javax.swing.JProgressBar;
 import javax.swing.SwingUtilities;
@@ -16,7 +14,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class DownloadManagerApp extends JFrame {
-
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 
@@ -164,4 +161,5 @@ public class DownloadManagerApp extends JFrame {
 	
 
     
+
 
